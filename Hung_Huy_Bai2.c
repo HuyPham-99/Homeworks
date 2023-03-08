@@ -363,10 +363,6 @@ void docvitri(uint8_t Arr[]) {
         {
             continue;
         }
-        // if (Arr[3] == 0 && Arr[4] == 0 && Arr[5] == 0)
-        // {
-        //     continue;
-        // }
         else if ((i == 1 || i == 4) && (Arr[i] == 0)) // neu tai vi tri arr[1] và arr[4] == 0 thi doc la khong tram
         {
             printf("khong tram ");
@@ -376,7 +372,6 @@ void docvitri(uint8_t Arr[]) {
             printf("linh ");
         } 
     }
-    // exit(EXIT_SUCCESS);  
 }
 
 
