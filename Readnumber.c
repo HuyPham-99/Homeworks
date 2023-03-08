@@ -377,7 +377,7 @@ void docvitri(uint8_t Arr[]) {
 
 int main(int argc, char const *argv[])
 {
-     //Nhap n can doc
+    //Nhap n can doc
     //sử dụng do..while để yêu cầu người dùng nhập du lieu vào 
     //nếu nhập khác thì yêu cầu nhập lại
     uint32_t num;
